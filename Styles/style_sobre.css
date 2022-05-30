@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../Fonts/avenir.otf');
+}
+
+/* --------------- Header --------------- */
+header {
+    width: 100vw;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #FFFFFF;
+    padding: 0 100px 0 100px
+    
+}
+
+#author {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+ #menu {
+    display: flex;
+    list-style-type: none;
+    font-family: 'avenir';
+    color: #303131;
+ }
+ 
+
+ #home {
+     color: #8B98A7;
+ }
+
+ #menu li {
+     text-decoration: none;
+     padding: 50px;
+     font-size: 18px;
+ }
+
+ #menu a {
+     text-decoration: none;
+     color: #303131;
+ }
+
+ #menu a:hover {
+    color: #8B98A7;
+ }
+
+
+ /* --------------- Chat --------------- */
+ #container-chat {
+    height: 114px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+
+ #chat {
+    border-style: none;
+    height: 74px;
+    align-items: center;
+    width: 428px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(187, 151, 168);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 18px;
+    padding-right: 22px;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+    margin-right: 38px;
+    font-family: 'Cinzel', serif;
+ }
+
+
+  /* --------------- Main --------------- */
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 102px;
+}  
+
+#container-sobre {
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    width: 45%;
+    height: 1000px;
+    background-image: url('../Images/Sobre.webp');
+    background-repeat: no-repeat;
+}
+
+#text {
+    width: 45%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #525353;
+    gap: 30px;
+    background-color: #eef5f5;
+    padding-left: 140px;
+}
+
+#title {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.paragraph {
+    font-family: 'avenir';
+    font-size: 18.5px;
+    line-height: 1.5em;
+    width: 75%;
+}
+
+
+.sub-title {
+    font-family: 'avenir';
+    font-size: 25px;
+    font-weight: 100;
+    width: 400px;
+}
+
+  /* --------------- Footer --------------- */
+ footer {
+    height: 114px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logos {
+   display: flex;
+   gap: 30px;
+   padding: 5px 0 15px;
+}
+
+#text-end {
+   font-family: 'avenir';
+   font-size: 18px;
+   color: #303131;
+   font-weight: 100;
+}
